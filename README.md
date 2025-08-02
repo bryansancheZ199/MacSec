@@ -21,7 +21,11 @@ Software configuration:
 - change default interface from bridge to eth0
 - change default ip
 
-Modified the file setup-macsec.sh with the local ip and the peer MAC
+Modified the file setup-macsec.sh with the local ip and the peer MAC in the line 4 and 5
+```shell
+PEER_MAC="<insert_peer_mac_here>"     # e.g. aa:bb:cc:dd:ee:ff
+LOCAL_IP="<insert_local_ip_here>"     # e.g. 192.168.1.100
+```
 
 Once modified, run 
 ```shell
