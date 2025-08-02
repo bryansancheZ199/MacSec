@@ -22,3 +22,5 @@ Software configuration:
 - change default ip
 
 Follow the Raspberry config.txt file commands
+
+Some Iperf3 tests has been done with the macsec configuration and with out it, the files of the results are attached in the files of this repository.
